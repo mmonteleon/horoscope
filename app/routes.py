@@ -10,7 +10,7 @@ def index():
 @app.route('/horoscope', methods=['GET','POST'])
 @app.route('/horoscope.html', methods=['GET','POST'])
 def horoscope():
-    sign = request.form.to_dict()['sign']
+    sign = request.form['sign']
     prediction = model.horoscope(sign)
     return render_template('horoscope.html',sign=sign,prediction=prediction)
     

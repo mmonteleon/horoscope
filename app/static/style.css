@@ -1,0 +1,50 @@
+body{
+    background-color: #B39DDB;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+option{
+    font-size: 40px;
+    width: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+select{
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+input{
+    padding:5px 15px; 
+    background:#BBDEFB; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    font-size: 75px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #BBDEFB;
+    text-align: center;
+}
+
+h3{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}

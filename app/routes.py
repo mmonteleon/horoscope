@@ -4,6 +4,7 @@ from app.models import model, formopener
 
 @app.route('/')
 @app.route('/index')
+@app.route('/index.html')
 def index():
     return render_template('index.html')
     
